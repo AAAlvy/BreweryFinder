@@ -1,0 +1,16 @@
+Client ID: F65A9007E06E575D7BD87A2B3AB51E036751AE10
+Client Secret: 7555F1D6131EC127573FE23BAE411D0729D9A608
+
+To get started here are few important links:
+
+API Documentation V4: http://untappd.com/api/docs/v4
+API Explorer (V4): http://untappd.com/api/explorer?v=4
+Some important notes:
+
+With our V4, all calls are over OAuth.
+If you authenticate, you user has 100 calls per hour.
+If you do not, your rate limit is applied to your API token.
+We are always looking to improve our API both in documentation and feature requests.
+If you have a suggestions, please send an email to greg@untappd.com.
+If you are using the Untappd API for something cool, let us know! We want to showcase it!
+Make sure that you are following the terms of use for the API at http://untappd.com/terms/api
