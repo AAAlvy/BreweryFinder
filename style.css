@@ -1,7 +1,27 @@
 /*a {
   font-family: "light italic"
-}*/
+}
 #map {
   width: 50%;
   height: 500px;
+}
+.sidebar {
+  width: 33.3333%;
+}*/
+
+#map {
+  border-left: 1px solid #fff;
+  left: 40%;
+  width: 60%;
+  top: 0;
+  bottom: 0;
+  height: 500px;
+  border-right: 100px;
+}
+
+#sidebarpad2 {
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
