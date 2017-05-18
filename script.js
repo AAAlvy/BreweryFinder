@@ -2,8 +2,14 @@ $(document).ready(function(){
   mapboxgl.accessToken = 'pk.eyJ1IjoiYWx2eW1hcHMiLCJhIjoiY2oyczFudDJzMDAwbzJxcGZ6cGk5NTJmOCJ9.RKuabJSVUUBK5rYyrqfYlg';
   var map = new mapboxgl.Map({
 container: 'map',
-style: 'mapbox://styles/mapbox/traffic-night-v2'
+style: 'mapbox://styles/mapbox/traffic-night-v2',
+center: [-105.0092036, 39.7576354],
+zoom: 13
 });
+
+var breweries = {
+  
+}
 
 $("#submit").click(function(){
   event.preventDefault();

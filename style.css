@@ -9,17 +9,29 @@
   width: 33.3333%;
 }*/
 
-#map {
-  border-left: 1px solid #fff;
-  left: 40%;
-  width: 60%;
-  top: 0;
-  bottom: 0;
-  height: 500px;
-  border-right: 100px;
+body {
+  /*background: #404040; change this color later*/
+  /*font: 500 20px/26px 'Helvetica Neue', Helvetica, Arial, Sans-serif;*/
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
-#sidebarpad2 {
+.sidebar {
+  width: 33.3333%;
+}
+
+.map {
+  border-left: 1px solid #fff;
+  /*position: absolute;*/
+  left: 45.3333%;
+  width: 50.6666%;
+  top: 0;
+  bottom: 0;
+  height: 625px;
+}
+
+.pad2 {
   padding: 20px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
