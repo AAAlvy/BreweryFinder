@@ -28,7 +28,7 @@ body {
   width: 50.6666%;
   top: 0;
   bottom: 0;
-  height: 625px;
+  height: 650px;
 }
 
 .pad2 {
@@ -36,4 +36,12 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+.breweryMarker {
+  background-image: url("https://icons.iconarchive.com/icons/dapino/beach/48/beer-icon.png");
+  background-size: cover;
+  width: 48px;
+  height: 48px;
+
 }
