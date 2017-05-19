@@ -1,60 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Which Brewery?</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-    <link rel="stylesheet" href="style.css">
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.min.js"
-      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-      crossorigin="anonymous"></script>
-    <!-- <script src='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js'></script> -->
-    <!-- <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.33.1/mapbox-gl.js'></script> -->
 
-    <!-- <link href='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css' rel='stylesheet' /> -->
-    <!-- <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.33.1/mapbox-gl.css' rel='stylesheet' /> -->
-      <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVrQJVScXggfyzJvTEqbYw1UbfGC7f-OI">
-      </script>
-      <script src="script.js" charset="utf-8"></script>
-  </head>
+<head>
 
-  <nav class="blue darken-4">
+  <meta charset="utf-8">
+  <title>Which Brewery?</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVrQJVScXggfyzJvTEqbYw1UbfGC7f-OI">
+  </script>
+  <script src="script.js" charset="utf-8"></script>
+</head>
+
+<nav class="blue darken-4">
   <div class="nav-wrapper">
-    <bname href="#" class="brand-logo center">Which Brewery?</bname>
+    <header class="brand-logo center">Which Brewery?</header>
   </div>
 </nav>
-  <body>
+
+<body>
+
+
+  <div class="container">
 
     <!-- Before proceeding, please answer:
-  <div class="switch">
-    Do you drink Bud Light?
-    <label>
-      Yes
-      <input type="checkbox">
-      <span class="lever"></span>
-      No
-    </label> -->
-    <div class="container">
-      <p class="flow-text">Welcome to Which Brewery, the app that allows you to find your nearest brewery. Simply, put in your address or zip code,
-        take note of the address...then put on your walking shoes or call that Uber. <a href="https://en.wikipedia.org/wiki/Pilsner">Na zdrav&#237;!</a></p>
-    </div>
+    <div class="switch">
+      Do you drink Bud Light?
+      <label>
+        Yes
+        <input type="checkbox">
+        <span class="lever"></span>
+        No
+      </label> -->
+
+    <p class="flow-text">Welcome to Which Brewery, the app that tells you where the nearest breweries are.</br>
+      Simply, allow your computer to determine your location when prompted, enter the distance you are willing to travel for a brew...
+      then put on your walking shoes, check your bike tires, or call that Uber.
+      <a href="https://en.wikipedia.org/wiki/Pilsner" target="_blank" style="color: yellow">Na zdrav&#237;!</a></p>
+
+
 
     <div class="row">
-        <div class="col s6">
-            <form>
-              <input placeholder="Radius" id="drinking_radius" type="text">
-              <button type="submit" id="submit">SKULL IT!</button>
-            </form>
-            <div class='sidebar pad2'>Listing below</div>
-        </div>
-            <div id='map' class='map pad2'>Map</div>
-        <!-- <div id='map'>Get yer' map on below</div> -->
-      </div>
-      <div class="results"></div>
+      <form>
+        <input class="col s2 white" placeholder="Distance in miles" id="drinking_radius" type="text"></div>
+    <button class="btn blue darken-4" type="submit" id="submit">SKULL IT!</button>
+    </form>
+    <div class='sidebar pad2'></div>
 
-      <!-- <div class="row">
+    <div class="row">
+      <div class="results col s6"></div>
+      <div id='map' class='map pad2 col s6'>Map</div>
+    </div>
+    <!-- <div id='map'>Get yer' map on below</div> -->
+  </div>
+  </div>
+
+  <!-- <div class="row">
           <div class="col s6">
               <form>
                 <input placeholder="Radius" id="drinking_radius" type="text">
@@ -68,14 +72,13 @@
 
 </body>
 
-      <footer class="page-footer">
-          <div class="footer-copyright">
-            <div class="container">
-              © 2017 Oysters & Stout, LLC
-              <credit class="grey-text text-lighten-1 right" href="#!"><img src="assets/images/pbu_80_yellow.png" alt="Untappd Credit"></credit>
-            </div>
-          </div>
-      </footer>
-  <!-- <footer align="right">
-<img src="assets/images/pbu_80_yellow.png" alt="Untappd Credit"></footer> -->
+<footer class="page-footer blue darken-4">
+  <div class="footer-copyright">
+    <div class="container">
+      © 2017 Oysters & Stout, LLC
+      <credit class="grey-text text-lighten-1 right" href="#!"><img src="assets/images/pbu_80_yellow.png" alt="Untappd Credit"></credit>
+    </div>
+  </div>
+</footer>
+
 </html>

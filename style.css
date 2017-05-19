@@ -1,19 +1,18 @@
-/*a {
-  font-family: "light italic"
+header {
+  font-size: 120px !important;
+  margin-top: 40px;
+  font-family: "Shrikhand";
 }
-#map {
-  width: 50%;
-  height: 500px;
+
+nav {
+  min-height: 20vh;
 }
-.sidebar {
-  width: 33.3333%;
-}*/
 
 body {
-  /*background: #404040; change this color later*/
+  background: #82B0D9; change this color later
   /*font: 500 20px/26px 'Helvetica Neue', Helvetica, Arial, Sans-serif;*/
-  margin: 0;
-  padding: 0;
+  margin: 5;
+  padding: 5;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -24,24 +23,25 @@ body {
 .map {
   border-left: 1px solid #fff;
   /*position: absolute;*/
-  left: 45.3333%;
-  width: 50.6666%;
+  /*left: 45.3333%;
+  width: 60.6666%;*/
   top: 0;
   bottom: 0;
   height: 650px;
+width: 650px;
 }
 
-.pad2 {
+/*.pad2 {
   padding: 20px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
+}*/
 
 .breweryMarker {
   background-image: url("https://icons.iconarchive.com/icons/dapino/beach/48/beer-icon.png");
   background-size: cover;
-  width: 48px;
-  height: 48px;
+  width: 1px;
+  height: 1px;
 
 }
